@@ -1,0 +1,70 @@
+/* for google button */
+
+#customBtn {
+  display: inline-block;
+  background: white;
+  color: black;
+  width: 190px;
+  border-radius: 9px;
+  border: thin solid #ffffff;
+  box-shadow: 3px 3px 3px grey;
+  white-space: nowrap;
+  margin-top: 20vh;
+}
+#customBtn:hover {
+  cursor: pointer;
+  background: #23a6d5;
+  border: #23a6d5;
+  color: white;
+}
+span.label {
+  font-family: serif;
+  font-weight: normal;
+}
+span.icon {
+  background: url("https://lh3.googleusercontent.com/COxitqgJr1sJnIDe8-jiKhxDx1FrYbtRHKJ9z_hELisAlapwE9LUPh6fcXIfb5vwpbMl4xl9H9TRFPc5NOO8Sb3VSgIBrfRYvW6cUA")
+    transparent 5px 50% no-repeat;
+  background-size: 37px;
+  margin-left: ;
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  height: 42px;
+}
+span.buttonText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+  padding-right: 42px;
+  font-size: 14px;
+  font-weight: bold;
+  /* Use the Roboto font that is loaded in the <head> */
+  font-family: "Roboto", sans-serif;
+}
+
+/* page bg */
+#bg {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  height: 100vh;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* heading */
+.heading {
+  padding: 20px;
+  font-size: 50px;
+  color: white;
+}

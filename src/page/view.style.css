@@ -1,0 +1,18 @@
+.linksContainer {
+  padding: 5px;
+  vertical-align: center;
+
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.user-dp {
+  border-radius: 55px;
+  margin-top: 20px;
+  border: 7px double;
+}
+
+.user-name {
+  font-family: "Franklin Gothic Medium";
+  font-size: 25px;
+}

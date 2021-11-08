@@ -1,0 +1,57 @@
+@import "~bootstrap/scss/bootstrap";
+.dropup, .dropend, .dropdown, .dropstart {
+  position: absolute;
+
+}
+
+.container{
+  margin-top: 7px;
+  z-index: 1;
+}
+
+.link {
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+  padding-top: 5px;
+  padding-right: 3vw;
+  padding-bottom: 5px;
+  padding-left: 3vw;
+  display:inline-block;
+  width: 77vw;
+
+  
+}
+
+
+.linkbox {
+  border-radius: 15px;
+  transition:all .5s ease-in-out;
+
+  
+}
+
+a.linkbox:hover {
+  color: white;
+  fill-opacity: 1;
+  text-shadow:
+    0 0 10px rgba(255,255,255, 1),
+    0 0 50px rgba(255, 255, 255, .8),
+    0 0 75px rgba(255, 255, 255, .6),
+    0 0 76px rgba(255, 255, 255, .4),
+    0 0 77px rgba(255, 255, 255, .5),
+    0 0 78px rgba(255, 255, 255, .4),
+    0 0 79px rgba(255, 255, 255, .3),
+    0 0 80px rgba(255, 255, 255, .2),
+    0 0 85px rgba(255, 255, 255, .1);
+}
+
+ .bi-trash{
+   position: relative;
+   bottom: 7px;
+   left: 10px;
+   size: 6em;
+   flex-grow: 2;
+ }
+
+ 
